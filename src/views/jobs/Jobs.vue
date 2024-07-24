@@ -1,7 +1,9 @@
 <template>
   <h1>Jobs</h1>
   <div v-for="job in jobs">
-    <span>{{ job.title }} - {{ job.details }}</span>
+    <router-link :to="{name: 'JobDetails', params: { id: job.id}}"
+      >{{ job.title }} - {{ job.details }}</router-link
+    >
   </div>
 </template>
 
