@@ -1,5 +1,5 @@
 <template>
-    <h1>Job Details</h1>
+    <h2>Job Details</h2>
     <p>The job id is {{ id }}</p>
 </template>
 
