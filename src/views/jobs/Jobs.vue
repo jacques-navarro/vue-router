@@ -11,11 +11,7 @@
 export default {
   data() {
     return {
-      jobs: [
-        { title: "UX Designer", id: 1, details: "blah" },
-        { title: "Web Developer", id: 2, details: "blah" },
-        { title: "Vue Developer", id: 3, details: "blah" },
-      ],
+      jobs: [],
     };
   },
 };
